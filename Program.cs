@@ -1,6 +1,5 @@
 ﻿namespace BridgePattern
 {
-
     public interface INotificationSender
     {
         void Send(string message, NotificationFormat format);
@@ -118,7 +117,5 @@
 			alertNotification.SendNotification("Внимание! Высокая загрузка сервера.", NotificationFormat.Text);
 
 		}
-
     }
-
 }
